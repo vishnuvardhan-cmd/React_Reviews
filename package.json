@@ -1,6 +1,6 @@
 {
   "name": "reminder",
-  "homepage":"https://vishnuvardhan-cmd.github.io/React_Reviews",
+  "homepage": "https://vishnuvardhan-cmd.github.io/React_Reviews",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,9 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run bulid",
-    "deploy":"gh-pages -d build",
-    "build": "CI= react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
